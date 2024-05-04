@@ -10,7 +10,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #112d42;
+    background-color: black;
     display: flex;
 }
 
@@ -21,7 +21,7 @@ section::before {
     left: 0;
     width: 50%;
     height: 100%;
-    background: #03a9f4;
+    background: white;
 }
 
 .container {
@@ -37,7 +37,7 @@ section::before {
     top: 40px;
     width: 350px;
     height: calc(100% - 80px);
-    background-color: #0f3959;
+    background-color: black;
     z-index: 1;
     padding: 40px;
     display: flex;
@@ -120,6 +120,7 @@ section::before {
     padding-left:250px;
     width:calc(100% - 150px);
     height:100%;
+    border:1px solid gray;
     box-shadow: 0 50px 50px rgba(0, 0, 0, 0.5);
 }
 .contactForm h2{
@@ -180,7 +181,7 @@ input:valid ~ span, textarea:valid ~ span{
 .submit-button{
     position: relative;
     cursor: pointer;
-    background-color: #0f3959;
+    background-color: black;
     color:#fff;
     border:none;
     padding:12px;   
